@@ -1,0 +1,124 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Roboto", sans-serif;
+  color: #212121;
+}
+ul {
+  list-style: none;
+}
+a {
+  color: #212121;
+  text-decoration: none;
+}
+.container {
+  max-width: 1200px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+/* HEADER ******************************************************/
+.header {
+  margin: 25px 0;
+}
+.header_inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.navigation {
+  display: flex;
+}
+.logo {
+  font-family: "Raleway", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 31px;
+  letter-spacing: 0.03em;
+  margin-right: 120px;
+  color: #2196f3;
+}
+.logo span {
+  color: #212121;
+  /* margin-left: -7px; */
+}
+.navigation_list {
+  display: flex;
+  align-items: center;
+}
+.navigation_item {
+  margin-right: 50px;
+}
+.navigation_link {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+
+  transition: color 0.3s ease;
+}
+.contact {
+  display: flex;
+  flex-wrap: wrap;
+}
+.contact_item {
+  margin-left: 50px;
+}
+.contact_link {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  color: #757575;
+
+  transition: color 0.3s ease;
+}
+.navigation_link:hover,
+.contact_link:hover {
+  color: #2196f3;
+}
+
+/* HERO *************************************************************************/
+.hero {
+  /* background-image: url(../images/hero.jpg); */
+  background-color: #2f303a;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.hero_title {
+  font-style: normal;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 60px;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #ffffff;
+  margin-bottom: 30px;
+}
+.hero_inner {
+  padding: 200px 0;
+  text-align: center;
+}
+.hero_btn {
+  border: none;
+  background: #2196f3;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  padding: 10px 32px;
+
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 30px;
+  letter-spacing: 0.06em;
+  color: #ffffff;
+  cursor: pointer;
+}
