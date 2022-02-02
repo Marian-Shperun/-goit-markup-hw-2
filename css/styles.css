@@ -287,6 +287,7 @@ img {
   letter-spacing: 0.03em;
 
   border: none;
+  border-radius: 4px;
   background-color: #f5f4fa;
 }
 .menu button:hover {
