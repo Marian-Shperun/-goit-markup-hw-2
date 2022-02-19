@@ -38,10 +38,10 @@ body {
   font-size: 26px;
   line-height: 31px;
   letter-spacing: 1.2;
-  color: var(--accent-color);
+  color: var(--primary-tex-color);
 }
 .logo span {
-  color: var(--primary-tex-color);
+  color: var(--accent-color);
 }
 
 .navigation-link {
@@ -155,6 +155,5 @@ body {
   letter-spacing: 0.06em;
 }
 .portfolio .description {
-  line-height: 1.19px;
   color: var(--secondary-tex-color);
 }
