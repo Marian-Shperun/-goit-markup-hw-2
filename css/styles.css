@@ -5,8 +5,8 @@
   --accent-color: #2196f3;
 
   --primary-background: #ffffff;
-  --secondary-background: #2f303a;
-  --background-tem: #f5f4fa;
+  --secondary-background: #f5f4fa;
+  --background: #2f303a;
   --backgroundcolor-btn: #2196f3;
   --backgroundcolor-btn-hover: #188ce8;
   --border-radius-btn: 4px;
@@ -38,6 +38,7 @@ body {
   font-size: 16px;
   text-align: center;
 
+  background-color: var(--secondary-background);
   border-radius: var(--border-radius-btn);
   cursor: pointer;
 }
@@ -52,7 +53,7 @@ body {
   text-decoration: none;
 }
 .logo-header {
-  color: var(--primary-tex-color);
+  color: #000000;
   text-decoration: none;
 }
 
@@ -80,7 +81,7 @@ body {
 }
 /* HERO *************************************************************************/
 .hero {
-  background-color: var(--secondary-background);
+  background-color: var(--background);
 }
 .hero-title {
   font-weight: 900;
@@ -119,7 +120,7 @@ body {
 
 /* team ************************************************************************/
 .team {
-  background-color: var(--background-tem);
+  background-color: var(--secondary-background);
 }
 .team-name .team-position {
   margin: 0;
@@ -163,7 +164,7 @@ body {
 
 /* footer ************************************************************************/
 .footer {
-  background-color: var(--secondary-background);
+  background-color: var(--background);
 }
 .logo-footer {
   color: var(--accent-color-white);
